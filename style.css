@@ -1,0 +1,342 @@
+nav > ul > li{
+    color:#fff !important;
+}
+
+a:hover{
+    color:#572525 !important;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Segoe UI", Arial, sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: 120%;
+    background: #FFFBF7;
+    overflow-x: hidden;
+    background-image: url("Brown, Pink and Green Abstract Shapes Wellness Quotes Facebook Cover .png");
+    background-repeat: no-repeat;
+    background-size:100vw 100vh;
+    margin: 0 auto;
+}
+
+.header1 {
+    width: 30%;
+    margin: 18vh auto 0px;
+    /* margin-top: 100px; */
+    color: #ffffff;
+    background: #CCA1A1;
+    text-align: center;
+    box-shadow: -10px 8px 15px #00000030, 10px 8px 15px #00000030;
+    border-bottom: none;
+    border-radius: 10px 10px 0px 0px;
+    padding: 20px;
+}
+
+.header {
+    background: #CCA1A1;
+    color: #ffffff !important;
+}
+
+.dabba{
+    position: relative;
+    top: 50%;
+    bottom: 50%;
+    margin: 0 auto;
+}
+
+.welcome {
+    padding-top: 100px;
+    padding-bottom: 20px;
+    font-size: larger;
+    text-align: center;
+    background-color:#FFFBF7;
+    color:#E6A6A7;
+}
+
+form,
+.content {
+    width: 30%;
+    margin: 0px auto;
+    padding: 20px;
+    /* border: 1px solid #896161; */
+    box-shadow: 0px 8px 10px #00000030, -10px 8px 15px #00000030, 10px 8px 15px #00000030;
+    background: white;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.input-group {
+    margin: 10px 0px 10px 0px;
+    
+}
+
+.input-group label {
+    font-size:medium;
+    display: block;
+    text-align: left;
+    margin: 3px;
+}
+
+.input-group input {
+    height: 30px;
+    width: 93%;
+    padding: 5px 10px;
+    font-size: 16px;
+    background-color: #00000010;
+    border-radius: 25px;
+    border: 1px gray;
+}
+
+.buton {
+    position: relative;
+    bottom:30px;
+    margin-top: 6vh;
+    margin-left: 0.7vw;
+    margin-bottom: -12vh;
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    background: #CCA1A1;
+    border: none;
+    border-radius: 5px;
+}
+
+.error {
+    width: 92%;
+    margin: 0px auto;
+    padding: 10px;
+    border: 1px solid #a94442;
+    color: #a94442;
+    background: #f2dede;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.success {
+    color: #3c763d;
+    background: #dff0d8;
+    border: 1px solid #3c763d;
+    margin-bottom: 20px;
+}
+
+/* my code  */
+
+/* .nav-link {
+    color: #fff;
+}
+
+.nav-item>a :hover {
+    color: white;
+} */
+
+header {
+    width: 100%;
+    height: 75px;
+    background-color: #CCA1A1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+  }
+  
+  #logo {
+    width: max(100px, 18vw);
+    /* aspect-ratio: 4/1; */
+    /* padding: 0.4rem; */
+  }
+
+  nav {
+    width: 50%;
+    max-width: 300px;
+    height: 50px;
+  }
+
+  nav > ul {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-inline-start: 0;
+    margin-block: 0;
+    height: 100%;
+  }
+  
+  nav > ul > li {
+    color: #fff !important;
+    margin: 0 0.2rem;
+    padding: 0.2rem;
+    display: block;
+  }
+  
+  nav > ul > li:hover, nav > ul > li:focus, nav > ul > li:active {
+    
+    color: #572525 !important;
+    cursor: pointer;
+  }
+
+  .nav > .navbar-brand:hover, .nav > .navbar-brand:active, .nav > .navbar-brand:focus{
+    color: #572525 !important;
+  }
+  
+  li > a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+#top {
+    /* padding-top: 50px; */
+    background-color: white;
+}
+
+.paragraph {
+    padding-top: 20px;
+    text-align: justify;
+    display: block;
+}
+
+h1,
+h5 {
+    text-align: center;
+    margin: 75vw auto;
+    margin: 400;
+}
+
+h3 {
+    padding-top: 20px;
+}
+
+h6{
+    display: inline;
+    color:#572525;
+    padding-left: 4vw;
+}
+
+/* .col-sm-3{
+    background-image: url("Brown, Pink and Green Abstract Shapes Wellness Quotes Facebook Cover .png"); ;
+} */
+
+/* button {
+    position: relative;
+    bottom: 50px;
+    right: 10px;
+} */
+
+.download{
+    width:100%;
+    text-align: center;
+    background-color: #FFFBF7;
+}
+
+.download-btn{
+    background-color: #896161 !important;
+    color: white !important;
+    box-shadow: 0px 0px 5px 3px #00000030;
+    margin: 20px;
+}
+  
+
+output {
+    width: 250px;
+    display: flex;
+    justify-content: start;
+    flex-wrap: nowrap;
+    flex: 50%;
+    gap: 15px;
+    position: relative;
+    border-radius: 5px;
+    align-content: center;
+}
+
+output .image {
+    height: 150px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+    position: relative;
+}
+
+output .image img {
+    height: 100%;
+    width: 100%;
+}
+
+output .image span {
+    position: absolute;
+    top: -4px;
+    right: 4px;
+    cursor: pointer;
+    font-size: 22px;
+    color: white;
+}
+
+output .image span:hover {
+    opacity: 0.8;
+}
+
+output .span--hidden {
+    visibility: hidden;
+}
+
+.col-sm-3{
+    background-color: #FFFBF7;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    background: #CCA1A1;
+    height: auto;
+    width: 100vw;
+    padding: 40px 0 0 0;
+}
+
+/*content*/
+.footer {
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer p {
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+
+/*social -media*/
+.socials {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.socials li {
+    margin: 0 10px;
+}
+
+.socials a {
+    text-decoration: none;
+    color: #fff;
+    border: 1.1px solid white;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.socials a i {
+    font-size: 1.1rem;
+    width: 20px;
+    transition: color .4s ease;
+}
+
+.socials a:hover i {
+    color: #572525;
+}
